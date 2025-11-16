@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+using std::cout;
+using std::endl;
+using std::cin;
+using std::string;
+
+int main()
+{
+    string first_name;
+    string last_name;
+    cout << "Enter your first name: ";
+    getline(cin, first_name);
+    cout << "Enter your last name: ";
+    getline(cin, last_name);
+    string full_name = last_name + ", " + first_name;
+    cout << "Here is the information in a single string: " << full_name << endl;
+
+    return 0;
+}
+
