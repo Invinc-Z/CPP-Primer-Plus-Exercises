@@ -12,14 +12,17 @@ void setgolf(golf & g, const char * name, int hc){
 }
 
 int setgolf(golf & g){
+    memset(g.fullname, 0, sizeof(g.fullname));
     cout << "Enter username: ";
     cin.getline(g.fullname, sizeof(g.fullname));
+    if(strlen(g.fullname) == 0)
+        return 0;
     cout << "Enter handicap: ";
     cin >> g.handicap;
     while(cin.get() != '\n')
         continue;
 
-    return strlen(g.fullname) ? 1 : 0;
+    return 1;
 }
 
 void handicap(golf & g, int hc){

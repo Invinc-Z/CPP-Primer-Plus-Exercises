@@ -21,6 +21,7 @@ int main()
             break;
         ++j;
     }
+    cout << endl;
     for(int i = 0; i < j; i++){
         showgolf(arr_golf[i]);
     }
