@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "Golf.h"
+#include "golf.h"
 
 using std::cin;
 using std::cout;

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "Plorg.h"
+#include "plorg.h"
 
 
 Plorg::Plorg(const char * name /*= "Plorga"*/, int ci /*= 50*/)

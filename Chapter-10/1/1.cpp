@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "BankAccount.h"
+#include "bankaccount.h"
 
 using std::string;
 using std::cin;

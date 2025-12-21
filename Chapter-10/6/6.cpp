@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Move.h"
+#include "move.h"
 
 using std::cout;
 using std::endl;

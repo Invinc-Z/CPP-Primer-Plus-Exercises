@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Sales.h"
+#include "sales.h"
 
 int main()
 {

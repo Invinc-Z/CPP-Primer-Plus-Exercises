@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Golf.h"
+#include "golf.h"
 
 using std::cout;
 using std::cin;

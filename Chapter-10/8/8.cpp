@@ -1,5 +1,5 @@
 #include <iostream>
-#include "List.h"
+#include "list.h"
 
 using std::cout;
 using std::endl;

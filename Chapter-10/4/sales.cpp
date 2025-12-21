@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Sales.h"
+#include "sales.h"
 
 using std::cin;
 using std::cout;
