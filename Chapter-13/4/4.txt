@@ -1,0 +1,15 @@
+b.
+Firstly, the constructor and the destructor of the derived class can not be inherited, 
+    so the derived class have to redefine them.
+Second, as the base class have the pointer member "brand", thus the derived class have to
+    redefine operator=() function against memberwise copy.
+Third, the derived class need to redefine Show() to show its member data.
+Moreover, friend function can not be inherited.
+The others are not redefined as they just use the base class portion in the derived class.
+
+c.
+The assignment operator cannot be a virtual function, 
+    because assignment requires both the left and right operands to have the same static type, 
+    while virtual functions rely on runtime polymorphism; the two are fundamentally conflicting in semantics.
+The friend function is not a class member function, and it have no pointer this,
+    so operator<<() cannot be virtual.
