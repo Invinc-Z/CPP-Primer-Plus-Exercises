@@ -1,9 +1,4 @@
-#include <iostream>
 #include "4_sales.h"
-
-using std::cin;
-using std::cout;
-using std::endl;
 
 int main()
 {

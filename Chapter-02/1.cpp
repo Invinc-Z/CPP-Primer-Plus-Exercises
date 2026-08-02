@@ -1,9 +1,12 @@
 #include <iostream>
 
+using std::cout;
+using std::endl;
+
 int main()
 {
-    std::cout <<"My name is " << "Invinc-Z" << std::endl;
-    std::cout << "My address is " << "blue planet" << std::endl;
+    cout <<"My name is " << "Zhuang" << endl;
+    cout << "My address is " << "Desert" << endl;
 
     return 0;
 }

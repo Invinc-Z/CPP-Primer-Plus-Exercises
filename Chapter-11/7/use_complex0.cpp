@@ -1,6 +1,8 @@
 #include <iostream>
-using namespace std;
 #include "complex0.h" // to avoid confusion with complex.h
+
+using std::cin;
+using std::cout;
 int main()
 {
     Complex0 a(3.0, 4.0); // initialize to (3,4i)
